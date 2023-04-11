@@ -8,7 +8,6 @@ import multiprocessing
 import time
 from http.server import SimpleHTTPRequestHandler,HTTPServer
 import logging
-import com.bankofchangsha.xx.test
 banner = r'''                _
                  _
  ___ _ __  _ __(_)_ __   __ _        _____  ___ __
